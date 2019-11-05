@@ -8,7 +8,7 @@ def test():
     URL = "https://jsonplaceholder.typicode.com/todos/1"
     r = requests.get(url = URL)
     return r.json()
-
+print("# of plugins loaded: 155")
 
 if __name__ == '__main__':
     application.run(host='0.0.0.0', debug=True, port=8081)
